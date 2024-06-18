@@ -1,13 +1,31 @@
-This project is demonstration of Borrows wheeler Data Transformation which is a string transformation algorithm which helps in making string more compressable.
+You can learn more about BWT here: https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
 
-You can learn more about it here: https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
+This project focuses on implementing the Burrows-Wheeler Transformation (BWT) in C to achieve efficient data compression. BWT rearranges the input text into runs of similar characters, making it more amenable to further compression techniques like Run-Length Encoding (RLE) and Huffman coding.
+Objectives
 
-Here We first transform give data file into bwd form and then use one of two methods to compress it and create a compressed file.
-( effective ness of this methods depends on data )
-Methods after BWD Transformation
-**1) count of continous occuring same element + HUffman
-2) link-list method + Huffman**
+    Implement BWT: Transform the input text using the Burrows-Wheeler Transformation.
+    Compression: Apply additional compression techniques (e.g., RLE, Huffman coding) on the BWT output.
+    Decompression: Reverse the compression and BWT to reconstruct the original text.
 
+Features
+
+    BWT Transformation: Efficiently implement the Burrows-Wheeler transform.
+    Compression Algorithms: Integrate RLE and Huffman coding for enhanced compression.
+    File I/O: Handle input and output operations for reading the original text and writing the compressed data.
+
+Technical Requirements
+
+    Language: C
+    Compiler: GCC or similar
+    Libraries: Standard C libraries (stdlib.h, stdio.h, string.h)
+
+Deliverables
+
+    Source Code: Well-documented C files.
+    Executable: Compiled program for compression and decompression.
+    Documentation: README file with instructions and sample test cases.
+
+This project will provide a complete implementation of the Burrows-Wheeler Transformation for efficient data compression and decompression in C.
  **Setup**
  
   **for encryption (compression) :**
